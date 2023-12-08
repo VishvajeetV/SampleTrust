@@ -1,4 +1,3 @@
-
-╦ ╦┌─┐┬  ┬  ┌─┐
-╠═╣├┤ │  │  │ │   , Welcome to SampleTrust :: Vishvajeet Vaidya
-╩ ╩└─┘┴─┘┴─┘└─┘ ┘
+╔═╗
+╚═╗ampleTrust By Vishvajeet Vaidya
+╚═╝
