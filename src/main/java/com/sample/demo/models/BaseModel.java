@@ -33,6 +33,11 @@ public class BaseModel {
     @JoinColumn(name = "updated_by"
     )
     private User updatedBy;
+
+    @Column(
+            name = "is_deleted"
+    )
+    private boolean isDeleted;
     
     
     
@@ -70,6 +75,14 @@ public class BaseModel {
         this.updatedBy = updatedBy;
     }
     public User getUpdatedBy(){return this.updatedBy;}
+
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
+    }
     
     
     
